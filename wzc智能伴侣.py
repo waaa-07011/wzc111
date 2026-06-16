@@ -2,6 +2,13 @@ import streamlit as st
 import os
 from openai import OpenAI
 
+# 音频
+st.audio("resources/20260531_224841.m4a")
+
+# 视频
+st.video("resources/生成奶龙糖笑视频.mp4")
+
+
 st.set_page_config(
     page_title='王梓灿私人伴侣',
     page_icon='😈',
